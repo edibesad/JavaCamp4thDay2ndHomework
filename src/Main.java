@@ -11,7 +11,7 @@ public class Main
     public static void main(String[] args) throws Exception
     {
         BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-        customerManager.Save(new Customer(1,"Edib Esad","Galip",2001,"45272023678"));
+        customerManager.Save(new Customer(1,"Edib Esad","Galip",2001,""));
         System.out.println();
     }
 }
